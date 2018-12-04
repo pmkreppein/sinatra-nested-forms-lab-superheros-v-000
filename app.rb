@@ -1,9 +1,3 @@
-require './config/environment'
-
-run App
-
-# require '../../config/environment'
-
 class App < Sinatra::Base
 
   set :views, Proc.new { File.join(root, "../views/") }
